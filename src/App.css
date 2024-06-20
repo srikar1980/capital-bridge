@@ -1,0 +1,71 @@
+/* Common Section Styles */
+.section {
+  height: 100vh;
+  padding: 4rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.section p {
+  font-size: 1.125rem;
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.section .content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Specific Section Styles */
+.intro {
+  color: var(--text-color);
+  text-align: center;
+}
+
+.about-us {
+}
+
+.services {
+}
+
+.our-values {
+}
+
+.feedback {
+}
+
+.why-choose-us {
+}
+
+.contact {
+  color: var(--text-color);
+}
+
+.footer {
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #333;
+  color: #888;
+  font-size: 0.875rem;
+}
+
+.footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.footer a:hover {
+  color: var(--secondary-color);
+}
+
+.btn {
+  height: 45px !important;
+}
