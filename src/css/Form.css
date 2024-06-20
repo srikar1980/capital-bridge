@@ -1,0 +1,30 @@
+/* Form.css */
+
+.form-control {
+  border: none;
+  box-shadow: 0 4px 6px rgba(60, 64, 67, 0.1), 0 8px 20px rgba(60, 64, 67, 0.1);
+  border-radius: 0;
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-control::placeholder {
+  color: #aaa;
+}
+
+.btn-contact,
+.btn-contact:hover {
+  background-color: greenyellow;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.btn-intro:hover {
+  background-color: #0056b3;
+}

@@ -1,7 +1,7 @@
 import '../css/GetStarted.css';
 const GetStartedCard = () => {
   return (
-    <section className="section our-values">
+    <section id='get-started'>
       <div className="container">
         <div className="row align-items-center">
           <div className="get-start-card">

@@ -1,4 +1,6 @@
 .get-start-card {
+  margin-top: 55px;
+  margin-bottom: 55px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,7 +12,11 @@
   color: greenyellow;
   font-weight: 700;
 }
-.get-started-btn,.get-started-btn:hover {
-    text-transform: uppercase;
+.get-started-btn,
+.get-started-btn:hover {
+  text-transform: uppercase;
   border: 2px solid #242424;
+}
+.blockquote {
+  font-weight: 700;
 }

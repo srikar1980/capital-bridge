@@ -5,12 +5,10 @@ import Header from './views/Header';
 import Intro from './views/Intro';
 import AboutUs from './views/AboutUs';
 import Services from './views/Services';
-import OurValues from './views/OurValues';
-import Feedback from './views/Feedback';
-import WhyChooseUs from './views/WhyChooseUs';
 import Contact from './views/Contact';
 import Footer from './views/Footer';
 import GetStartedCard from './views/GetStartedCard';
+import ProfessionalExcellence from './views/Professional Excellence';
 
 const App = () => {
   return (
@@ -20,10 +18,8 @@ const App = () => {
         <Intro />
         <AboutUs />
         <Services />
-        <OurValues />
-        <GetStartedCard />
-        <Feedback />
-        <WhyChooseUs />
+        <ProfessionalExcellence />
+        <GetStartedCard />        
         <Contact />
         <Footer />
       </div>

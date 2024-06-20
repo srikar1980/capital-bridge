@@ -1,12 +1,18 @@
+import ContactForm from './ContactForm';
+import ContactInfo from './ContactInfo';
+
 const Contact = () => {
   return (
-    <section id="contact" className="section contact">
-      <div className="content">
-        <h2>Contact Us</h2>
-        <p>
-          Get in touch with us for any inquiries or to start your project with
-          us. We are here to help you achieve your goals.
-        </p>
+    <section className="contact">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-lg-6">
+            <ContactInfo />
+          </div>
+          <div className="col-lg-6">
+            <ContactForm />
+          </div>
+        </div>
       </div>
     </section>
   );

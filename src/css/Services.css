@@ -13,6 +13,7 @@
 }
 .services-title {
   font-weight: 700;
+  text-align: center;
 }
 .section.services {
   padding: 60px 0;
@@ -25,8 +26,10 @@
 
 .service-cards {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .service-card {
