@@ -13,13 +13,13 @@ const OurValues = () => {
             Unleashing Potential with Innovative Training Solutions for
             Professionals and Corporations
           </p>
-          <div className="col-lg-6 intro-image">
+          <div className="col-lg-6 ourvalues-image">
             <video controls autoPlay loop muted className="video-fluid">
               <source src={aboutUsVideo} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
-          <div className="col-lg-6 intro-content">
+          <div className="col-lg-5 offset-lg-1 ourvalues-content">
             <div>
               <h4>Mission</h4>
               <p>

@@ -10,6 +10,7 @@ import Feedback from './views/Feedback';
 import WhyChooseUs from './views/WhyChooseUs';
 import Contact from './views/Contact';
 import Footer from './views/Footer';
+import GetStartedCard from './views/GetStartedCard';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <AboutUs />
         <Services />
         <OurValues />
+        <GetStartedCard />
         <Feedback />
         <WhyChooseUs />
         <Contact />
