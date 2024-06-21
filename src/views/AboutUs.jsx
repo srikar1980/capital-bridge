@@ -2,7 +2,7 @@ import aboutUsImage from '../assets/aboutus-img.png';
 
 const AboutUs = () => {
   return (
-    <section className="intro">
+    <section className="about-us">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-5 intro-image">
