@@ -38,7 +38,6 @@ const Header = () => {
         >
           About Us
         </ScrollLink>
-        
       </nav>
       <button className="btn btn-primary header-btn">Contact Us</button>
       <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
