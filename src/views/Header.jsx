@@ -45,7 +45,7 @@ const Header = () => {
         <div className="line"></div>
         <div className="line"></div>
       </div>
-      {isOpen && <div className="backdrop" onClick={toggleMenu}></div>}
+      {/* {isOpen && <div className="backdrop" onClick={toggleMenu}></div>} */}
     </header>
   );
 };
