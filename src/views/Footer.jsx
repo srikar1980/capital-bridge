@@ -5,7 +5,7 @@ import {
   faLinkedin,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
-import '../css/Footer.css'; // Ensure this path matches your project structure
+import '../css/Footer.css';
 import logo from '../assets/logo.png';
 
 const Footer = () => {
@@ -13,48 +13,48 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-column footer-column-wide">
         <div>
-          <img src={logo} alt="Logo"  />
+          <img src={logo} alt="Logo" className="footer-logo" />
         </div>
         <p>
           Nam posuere accumsan porta. Integer id orci sed ante tincidunt
           tincidunt sit amet sed libero.
         </p>
-        <p>&copy; Capital Bridge 2020</p>
+        <p>&copy; Capital Bridge 2024</p>
       </div>
       <div className="footer-column2">
         <h4>Company</h4>
-        <p>Content for </p>
-        <p>Content for </p>
-        <p>Content for </p>
-        <p>Content for </p>
+        <p>About Us</p>
+        <p>Careers</p>
+        <p>Contact Us</p>
+        <p>Privacy Policy</p>
       </div>
       <div className="footer-column2">
         <h4>Services</h4>
-        <p>Content for </p>
-        <p>Content for </p>
-        <p>Content for </p>
-        <p>Content for </p>
+        <p>Training</p>
+        <p>Consulting</p>
+        <p>Workshops</p>
+        <p>Coaching</p>
       </div>
       <div className="footer-column2">
         <h4>Resources</h4>
-        <p>Content for </p>
-        <p>Content for </p>
-        <p>Content for </p>
-        <p>Content for </p>
+        <p>Blog</p>
+        <p>Case Studies</p>
+        <p>Whitepapers</p>
+        <p>FAQs</p>
       </div>
       <div className="footer-column footer-column-wide">
         <div className="social-icons">
           <a href="https://www.facebook.com" aria-label="Facebook">
-            <FontAwesomeIcon icon={faFacebook} />
+            <FontAwesomeIcon className="fa-icon" icon={faFacebook} />
           </a>
           <a href="https://www.twitter.com" aria-label="Twitter">
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon className="fa-icon" icon={faTwitter} />
           </a>
           <a href="https://www.linkedin.com" aria-label="LinkedIn">
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon className="fa-icon" icon={faLinkedin} />
           </a>
           <a href="https://www.instagram.com" aria-label="Instagram">
-            <FontAwesomeIcon icon={faInstagram} />
+            <FontAwesomeIcon className="fa-icon" icon={faInstagram} />
           </a>
         </div>
       </div>

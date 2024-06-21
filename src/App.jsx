@@ -19,7 +19,7 @@ const App = () => {
         <AboutUs />
         <Services />
         <ProfessionalExcellence />
-        <GetStartedCard />        
+        <GetStartedCard />
         <Contact />
         <Footer />
       </div>

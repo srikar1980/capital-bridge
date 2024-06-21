@@ -1,37 +1,55 @@
 .professionalexcellence-title {
-    text-align: center;
-    margin-bottom: 1rem;
-    font-weight: 900;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+.professionalexcellence-desc {
+  text-align: center;
+  margin-bottom: 2rem; /* Increased margin for better spacing */
+}
+
+.professionalexcellence {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.video-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.professionalexcellence-content {
+  padding: 0 20px;
+  position: relative;
+}
+
+.professionalexcellence-content h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.professionalexcellence-content p {
+  font-size: 1rem;
+  color: #666666;
+  line-height: 1.6;
+}
+
+@media (max-width: 991px) {
+  .professionalexcellence-title {
+    font-size: 1.8rem; /* Adjusted font size for smaller screens */
   }
+
   .professionalexcellence-desc {
-    text-align: center;
+    font-size: 1.1rem; /* Adjusted font size for smaller screens */
   }
-  .section.professionalexcellence {
-      padding: 60px 0;
-      background-color: #f9f9f9;
-    }
-  
-  
-    
-    .video-fluid {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px; 
-    }
-    
-    .professionalexcellence-content {
-      padding: 0 20px;
-    }
-    
-    .professionalexcellence-content h4 {
-      font-size: 1.5rem;
-      margin-bottom: 10px;
-    }
-    
-    .professionalexcellence-content p {
-      font-size: 1rem;
-      color: #666666;
-      line-height: 1.6;
-    }
-    
-  
+
+  .professionalexcellence-content {
+    padding: 0 10px; /* Reduced padding for smaller screens */
+  }
+
+  .video-fluid {
+    border-radius: 0; /* No border-radius for video on smaller screens */
+  }
+}

@@ -3,7 +3,7 @@ import aboutUsVideo from '../assets/short-video.mp4'; // Import your video file
 
 const ProfessionalExcellence = () => {
   return (
-    <section className="section">
+    <section className="section professional-excellence">
       <div className="container">
         <div className="row align-items-center">
           <h2 className="professionalexcellence-title">
